@@ -1,0 +1,269 @@
+
+/*==========================================================*/
+@media screen and (min-width: 321px) and (max-width:768px) {
+    .wholePage{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .pncAd{
+        display:none;
+    }
+    
+    .mainTitle{
+        display:flex;
+        justify-content: center;
+        background-image: linear-gradient(#0088f8, #005085);
+        width:100%;
+        height:250px;
+    }
+    .logo{
+        font-size: 50px;
+        margin-top: 130px;
+        color:white;
+    }
+    .formArea{
+        border: 1px solid rgb(219, 219, 219);;
+        width:90%;
+        margin:0 auto;
+        background: rgb(219, 219, 219);
+        margin-top: 10px;
+    }
+    input[type=text]{
+        display:block;
+        margin: 0 auto;
+        
+    }
+    .mainForm{
+        background-color:rgb(192, 227, 248);
+        height: 300px;
+        width:100%;
+    }
+    .username{
+        width: 97%;
+        height:40px;
+        border: 1px solid rgb(179, 179, 179);
+    }
+    .password{
+        width:97%;
+        height:40px;
+        border: 1px solid rgb(179, 179, 179);
+    }
+    .saveUserId{
+        width:99%;
+        height:40px;
+        padding-left: 5px;
+        background-color:rgb(219, 219, 219);
+        margin:0 auto;
+    }
+    .saveUserId > p{
+        margin:0;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    .resetPassword{
+        float:right;
+    }
+    .resetPassword > a{
+        text-decoration: none;
+    }
+    .buttonPart{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+    .submitButton{
+        height: 50px;
+        width:75%;
+        border-radius: 5px;
+        background-color: rgb(68, 130, 165);
+        color:white;
+    }
+
+
+
+
+
+
+    .footer{
+        display:flex;
+        justify-content: space-around;
+        background-color:rgb(192, 227, 248);
+        width:100%;
+    }
+
+    .footer2 {
+        display:flex;
+        justify-content: space-around;
+        background-color:rgb(192, 227, 248);
+        font-size: 12px;
+        font-weight:bold;
+    }
+    .footerLang{
+        display:flex;
+        justify-content: space-around;
+        background-color:rgb(192, 227, 248);
+    }
+    .footerLang > span{
+        color:black;
+    }
+    .appVersion{
+        display:flex;
+        justify-content: center;
+        background-color:rgb(192, 227, 248);
+        margin-top:0;
+        color:gray;
+        width:100%;
+    }
+
+
+} /*================================================*/
+
+@media screen and (min-width: 769px){
+    .wholePage{
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(192, 227, 248);
+    }
+    
+    .mainTitle{
+        display:flex;
+        justify-content: center;
+        background-image: linear-gradient(#0088f8, #005085);
+        width:100%;
+        height:250px;
+    }
+    .logo{
+        font-size: 50px;
+        margin-top: 130px;
+        color:white;
+    }
+    .formArea{
+        border: 1px solid rgb(219, 219, 219);
+        width:40%;
+        order:1;
+        background: rgb(219, 219, 219);
+        margin-top: 10px;
+    }
+    input[type=text]{
+        display:block;
+        margin: 0 auto;
+        
+    }
+    .mainForm{
+        display:flex;
+        flex-wrap:wrap;
+        background-color:rgb(192, 227, 248);
+        height: 300px;
+        width:100%;
+    }
+    .username{
+        width: 97%;
+        height:40px;
+        border: 1px solid rgb(179, 179, 179);
+    }
+    .password{
+        width:97%;
+        height:40px;
+        border: 1px solid rgb(179, 179, 179);
+    }
+    .saveUserId{
+        width:99%;
+        height:40px;
+        padding-left: 5px;
+        background-color:rgb(219, 219, 219);
+        margin:0 auto;
+    }
+    .saveUserId > p{
+        margin:0;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    .resetPassword{
+        float:left;
+        padding:10px;
+    }
+    .resetPassword > a{
+        text-decoration: none;
+    }
+    .buttonPart{
+        display: flex;
+        justify-content: start;
+        margin-top: 40px;
+        width:100%;
+        order:3;
+        
+    }
+    .submitButton{
+        height: 50px;
+        width:200px;
+        margin-left: 100px;
+        border-radius: 5px;
+        background-color: rgb(68, 130, 165);
+        color:white;
+        font-size:20px;
+    }
+
+    .pncAd{
+        order:2;
+        height:200px;
+        width:40%;
+        margin-left: 80px;
+        background-color: red;
+    }
+    .pncAd > img{
+        height:300px;
+        width:100%;
+    }
+    .pncStatement{
+        background-color: rgb(5, 113, 214);
+        opacity: .8;
+        height:40px;
+        margin-top: -50px;
+    }
+    .pncStatement > p{
+        font-size:30px;
+        color:orange;
+        margin-top: -20px;
+        padding-left: 20px;
+    }
+
+
+
+
+    .footer{
+        display:flex;
+        justify-content: space-around;
+        background-color:rgb(192, 227, 248);
+        width:100%;
+        margin-top: 100px;
+    }
+
+    .footer2 {
+        display:flex;
+        justify-content: space-around;
+        background-color:rgb(192, 227, 248);
+        font-size: 12px;
+        font-weight:bold;
+    }
+    .footerLang{
+        display:flex;
+        justify-content:center;
+        background-color:rgb(192, 227, 248);
+    }
+    .footerLang > *{
+        padding:10px;
+    }
+    .footerLang > span{
+        color:black;
+    }
+    .appVersion{
+        display:flex;
+        justify-content: center;
+        background-color:rgb(192, 227, 248);
+        margin-top:0;
+        color:gray;
+        width:100%;
+    }
+}
